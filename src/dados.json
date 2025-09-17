@@ -1,0 +1,88 @@
+{
+  "animais": [
+    {
+      "id": "A1",
+      "nome": "Leão",
+      "especie": "Panthera leo",
+      "imagem": "https://source.unsplash.com/random/300x200/?lion"
+    },
+    {
+      "id": "A2",
+      "nome": "Elefante",
+      "especie": "Loxodonta africana",
+      "imagem": "https://source.unsplash.com/random/300x200/?elephant"
+    },
+    {
+      "id": "A3",
+      "nome": "Pinguim Imperador",
+      "especie": "Aptenodytes forsteri",
+      "imagem": "https://source.unsplash.com/random/300x200/?penguin"
+    },
+    {
+      "id": "A4",
+      "nome": "Girafa",
+      "especie": "Giraffa camelopardalis",
+      "imagem": "https://source.unsplash.com/random/300x200/?giraffe"
+    }
+  ],
+  "livros": [
+    {
+      "id": "L1",
+      "titulo": "O Senhor dos Anéis",
+      "autor": "J.R.R. Tolkien",
+      "ano": 1954,
+      "capa": "https://source.unsplash.com/random/300x200/?fantasy,book"
+    },
+    {
+      "id": "L2",
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "ano": 1949,
+      "capa": "https://source.unsplash.com/random/300x200/?dystopian,book"
+    },
+    {
+      "id": "L3",
+      "titulo": "Dom Quixote",
+      "autor": "Miguel de Cervantes",
+      "ano": 1605,
+      "capa": "https://source.unsplash.com/random/300x200/?classic,book"
+    },
+    {
+      "id": "L4",
+      "titulo": "Fahrenheit 451",
+      "autor": "Ray Bradbury",
+      "ano": 1953,
+      "capa": "https://source.unsplash.com/random/300x200/?sci-fi,book"
+    }
+  ],
+  "pessoas": [
+    {
+      "id": "P1",
+      "nome": "Marie Curie",
+      "nascimento": "1867-11-07",
+      "area": "Física e Química",
+      "foto": "https://source.unsplash.com/random/300x200/?scientist,woman"
+    },
+    {
+      "id": "P2",
+      "nome": "Albert Einstein",
+      "nascimento": "1879-03-14",
+      "area": "Física",
+      "foto": "https://source.unsplash.com/random/300x200/?scientist,man"
+    },
+    {
+      "id": "P3",
+      "nome": "Ada Lovelace",
+      "nascimento": "1815-12-10",
+      "area": "Matemática e Computação",
+      "foto": "https://source.unsplash.com/random/300x200/?vintage,woman,computer"
+    },
+    {
+      "id": "P4",
+      "nome": "Isaac Newton",
+      "nascimento": "1643-01-04",
+      "area": "Física e Matemática",
+      "foto": "https://source.unsplash.com/random/300x200/?vintage,scientist"
+    }
+  ]
+}
