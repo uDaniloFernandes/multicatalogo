@@ -1,15 +1,12 @@
-// App.tsx
-
 import { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button"; // Importe o componente Button do Shadcn
-import { Heart } from 'lucide-react'; // Importe o ícone de coração da biblioteca lucide-react
+import { Button } from "@/components/ui/button";
+import { Heart } from 'lucide-react';
 
 import './App.css';
 import dados from './dados.json';
 
-// Interfaces de tipagem
 interface Livro {
   id: string;
   titulo: string;
@@ -29,11 +26,11 @@ interface Pessoa {
   id: string;
   nome: string;
   ocupacao: string;
-  imagem: string; // O seu JSON tem a propriedade 'imagem', não 'foto'.
+  imagem: string;
 }
 
 function App() {
-  const [favoritos, setFavoritos] = useState<string[]>([]); // Estado para armazenar os IDs dos itens favoritos
+  const [favoritos, setFavoritos] = useState<string[]>([]);
 
   const handleFavoritar = (id: string) => {
     setFavoritos(prevFavoritos => {
